@@ -6,6 +6,6 @@
  react-native-gesture-handler 
  react-native-screens 
  react-native-safe-area-context 
- @react-naive-community/masked-view 
+ @react-native-community/masked-view 
  @react-navigation/stack 
  @react-navigation/bottom-tabs
