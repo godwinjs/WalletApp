@@ -9,3 +9,5 @@
  @react-native-community/masked-view 
  @react-navigation/stack 
  @react-navigation/bottom-tabs
+
+npm install expo-linear-gradient --save

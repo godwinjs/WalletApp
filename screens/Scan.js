@@ -8,3 +8,5 @@ const Scan = () => {
         </View>
     )
 }
+
+export default Scan;
