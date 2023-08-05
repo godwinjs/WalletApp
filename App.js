@@ -4,6 +4,8 @@ import { SignUp } from "./screens";
 import { createStackNavigator } from "@react-navigation/stack";
 import { NavigationContainer, DefaultTheme } from '@react-navigation/native';
 
+import Tabs from "./navigation/tabs";
+
 const theme = {
     ...DefaultTheme,
     colors: {
@@ -24,6 +26,8 @@ const App = () => {
                 initialRouteName={'SignUp'}
             >
                 <Stack.Screen name="SignUp" component={SignUp} />
+                {/* Tabs: arrangements matters not*/}
+                <Stack.Screen name="Tabs" component={Tabs} />
             </Stack.Navigator>
         </NavigationContainer>
     )

@@ -11,3 +11,5 @@
  @react-navigation/bottom-tabs
 
 npm install expo-linear-gradient --save
+npm install --save react-native-svg
+npm install --save react-native-iphone-x-helper
